@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export function Login() {
+export function Note() {
   return (
     <div>
-      Login
-      <Link to="/register">
+      HomeNote
+      <Link to="/">
       <button>haga clic aquí</button>
-        </Link> 
+      </Link> 
     </div>
   )
 }
 
-export default Login
+export default Note
