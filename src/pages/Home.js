@@ -10,4 +10,4 @@ import '../styles/Home.css';
   )
 }
 
-export default Home
+export default Home 

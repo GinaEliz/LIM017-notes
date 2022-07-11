@@ -1,15 +1,12 @@
-import React from 'react';
-import '../styles/Register.css';
+import React from 'react'
 import { Link } from "react-router-dom";
 import Logo from '../assets/logo.png';
 import Image from '../assets/image2.png';
 import Image2 from '../assets/image3.png';
 
-export function Register() {
-
-  return (
-     
-     <div>
+const RegisterNote = () => {
+    return (
+      <div>
         <nav>
       <img className='portada' src={Image} alt="logo" />
     </nav>
@@ -70,9 +67,8 @@ export function Register() {
     <footer>
         <img className='portada1' src={Image2} alt="logo" />
     </footer>
-     
-    </div>
-  )
-}
-
-export default Register
+      </div>
+    )
+  }
+  
+  export default RegisterNote;
